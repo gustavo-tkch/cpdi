@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #006400;
+    text-align: center;
+    padding: 1rem 0;
+    margin-left: 350px;
+}
+
+
+.form-container img {
+    display: flex;
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+    transition: transform 2s;
+}
+
+.form-container img:hover {
+    transform: scale(1.2);
+}
+
+#main {
+    display: flex;
+}
+
+main {
+    max-width: 600px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+
+.form {
+    height: 600px;
+    margin-left: 50px;
+    margin-right: 250px;
+    /* border: 2px solid #006400; */
+}
+
+.ilustracao img {
+    width: 400px;
+    height: 500px;
+    /* border: 1px solid #006400; */
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+.form-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    color: #006400;
+}
+
+input,
+select,
+textarea,
+button {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #006400;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input {
+    background-color: #fafafa;
+}
+
+textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+button {
+    background-color: #00FF7F;
+    color: #006400;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: 1s;
+}
+
+button:hover {
+    background-color: #77dd77;
+    transform: scale(0.9);
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #00FF7F;
+    color: #006400;
+    width: 100%;
+    bottom: 0;
+    border-top: 2px solid #006400;
+}

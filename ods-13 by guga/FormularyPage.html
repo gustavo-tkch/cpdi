@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Empresas - Mudanças Climáticas</title>
+    <link rel="stylesheet" href="styleFormulary.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+            <h1>Combate às Mudanças Climáticas</h1>
+    </header>
+
+    <div id="main">
+
+        <div class="ilustracao">
+            <img src="img/ilustracaoFormulario.png" alt="">
+        </div>
+
+        <main class="form">
+            <form action="/submit" method="POST" class="form-container">
+                <a href="paginaInicial.html">
+                    <img src="img/faviconLogo.png" alt="Logo">
+                </a>
+                <p>Cadastre sua empresa e faça parte da mudança!</p>
+                <!-- <label for="empresa">Nome da Empresa:</label> -->
+                <input type="text" id="empresa" name="empresa" placeholder="Digite o nome da empresa" required>
+
+                <!-- <label for="email">Email:</label> -->
+                <input type="email" id="email" name="email" placeholder="Digite o email" required>
+
+                <!-- <label for="telefone">Telefone:</label> -->
+                <input type="tel" id="telefone" name="telefone" placeholder="Digite o telefone">
+
+                <!-- <label for="cidade">Cidade:</label> -->
+                <input type="text" id="cidade" name="cidade" placeholder="Digite a cidade" required>
+
+
+                </select>
+
+                <label for="motivo">Por que sua empresa quer participar?</label>
+                <textarea id="motivo" name="motivo" placeholder="Conte-nos mais sobre suas motivações"
+                    required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </main>
+
+    </div>
+
+    <footer>
+        <p>&copy; Todos os Direiros Reservados Grupo 2 CPDI Daniel Deisy Gustavo Lucas 2024</p>
+    </footer>
+</body>
+
+</html>
